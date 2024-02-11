@@ -25,14 +25,17 @@ section{
     justify-content: space-between;
     padding: 2rem 9%;
     z-index: 2;
-    background: #000;
+   
 }
 /* Header, logo, and navbar info here
 /* Img properties */
 /* Test branch made here, pull/push/merch request also made */
-.header .logo img{
-    height: 6rem;
+
+.header .logo img{ /* Logo is kinda small here, try and fix later */
+    height: 4rem;
 }
+
+
 
 .header .navbar #close{
     display:none;
@@ -48,7 +51,7 @@ color:#fff;
     color: #d3ad7f; /* chnage color if not liked*/
 }
 
-.header menu{
+.header #menu{
     display: none; /* display:flex;
                       justify-content:space-between;              
                        align-items:center;         */
@@ -90,6 +93,20 @@ color:#d3ad7f;
     color:#fff;
 }
 
+.home .content .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: #d3ad7f;
+    cursor: pointer;
+}
+
+.home .content .btn:hover{
+    letter-spacing: .2rem; /* Not sire how i like the spacing, chnage to .1 later if decided too */
+}
+
 .home .image{
     flex: 1 1 40rem;
 }
@@ -98,3 +115,4 @@ color:#d3ad7f;
     width: 150%; /* Was 100 before */
 }
 
+/* end of home/landing page */
