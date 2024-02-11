@@ -1,0 +1,25 @@
+/* Generic html */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s ease-in-out; /* Maybe change to .3 linear if not working */
+}
+
+html{
+    font-size: 70%;
+}
+
+
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10%;
+    z-index: 2;
+}
+
