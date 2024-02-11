@@ -35,18 +35,24 @@ html{
 }
 
 .header .navbar a{
-font-size: 2rem;
-margin-right:2rem;
+font-size: 2rem; /* 1.8rem*/
+margin-right:2rem; /* 1.8rem*/
 color:#fff;
 }
 
 .header .navbar a:hover{
-    color: #d3ad7f;
+    color: #d3ad7f; /* chnage color if not liked*/
 }
 
 .header menu{
-    display: menu;
+    display: menu; /* display:flex;
+                      justify-content:space-between;              
+                       align-items:center;         */
 }
 
 /*header ends */
 
+/* Home section starts*/
+.home{
+    display: flex;
+}
