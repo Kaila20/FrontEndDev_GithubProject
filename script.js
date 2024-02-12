@@ -1,22 +1,20 @@
+//Nav bar aparing when in responsive view
+//Okay, for some reason, the animation isnt working
+//uhhh, im tired and going to bed ;-;
+let navbar = document.querySelector('.header .navbar' )
 
-//Adding event listener when clciked, getting the data-speed element/attribute 
-document.addEventListener('mouse-move', move);
-function move(e){
-    //returning css element with move & and returns data-speed from html
-    this.querySelectorAll('move').forEach(layer_speed =>{ //layer is the current element used
-        const speed = layer_speed.getAttribute('data_speed') //Note Kaila: For loop is another way to do this, so if this doesnt work then change to for
-    
-        //speed for animation (X and Y)
-        //calculation is very hard......
-        const x = (window.innerWidth - e.pageX*speed)/120
-        const y = (window.innerWidth - e.pageY*speed)/120
-    
-        //Transform x and  y, moves it too the right
-        layer_speed.style.transform = 'translateX(' + x + 'px) translateY(' + y + 'px)';
-
-    })
-
+//When clicked on hamburger menu, nav menu pops up 
+document.querySelector('#menu').onclick = () =>{
+    navbar.classList.add('active');
 }
+
+//When clicked on hamburger menu, nav menu pops up 
+document.querySelector('#close').onclick = () =>{
+    navbar.classList.remove('active');
+}
+
+
+
 
 //Gasp animation (CDN)
 //Taking the html elements into js
