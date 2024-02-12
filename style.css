@@ -25,7 +25,7 @@ section{
     justify-content: space-between;
     padding: 2rem 9%;
     z-index: 2;
-    background: #000;
+    
    
 }
 /* Header, logo, and navbar info here
@@ -58,7 +58,14 @@ color:#fff;
                        align-items:center;         */
 }
 
+.header #menu{
+    display: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: #fff;
+}
 /*header ends */
+
 
 /* Home section starts*/
 .home{
@@ -73,6 +80,7 @@ color:#fff;
 
 .home .content{
     flex: 1 1 40rem;
+    padding-top: 6.5rem;
 }
 
 .home .content .title{
@@ -106,7 +114,7 @@ color:#d3ad7f;
 }
 
 .home .content .btn:hover{
-    letter-spacing: .1rem; /* Not sire how i like the spacing, chnage to .1 later if decided too */
+    letter-spacing: .1rem; /* Not sure how i like the spacing, chnage to .1 later if decided too */
 }
 
 .home .image{
@@ -118,3 +126,10 @@ color:#d3ad7f;
 }
 
 /* end of home/landing page */
+
+/* Css to help animation for js, makes home visable */
+
+
+.logo, .navbar .nav_item, .title, .desc, .btn, .image  {
+    opacity: 1;
+}
