@@ -25,6 +25,7 @@ section{
     justify-content: space-between;
     padding: 2rem 9%;
     z-index: 2;
+    background: #000;
    
 }
 /* Header, logo, and navbar info here
@@ -75,7 +76,7 @@ color:#fff;
 }
 
 .home .content .title{
-    font-size: 6rem;
+    font-size: 5rem;
     color:#fff;
     text-transform: uppercase;
 }
@@ -88,7 +89,7 @@ color:#d3ad7f;
 .home .content .desc{
     font-size: 2rem;
     font-weight: lighter;
-    line-height: 1.8;
+    line-height: 1.5;
     padding: 1rem 0;
     color:#fff;
 }
@@ -101,10 +102,11 @@ color:#d3ad7f;
     color: #fff;
     background: #d3ad7f;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .home .content .btn:hover{
-    letter-spacing: .2rem; /* Not sire how i like the spacing, chnage to .1 later if decided too */
+    letter-spacing: .1rem; /* Not sire how i like the spacing, chnage to .1 later if decided too */
 }
 
 .home .image{
